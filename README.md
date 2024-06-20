@@ -6,12 +6,16 @@ Topic (v0): Analysis emotion of reddit posts
 Big topic: Analysis judgment of reddit posts
 
 Guideline datascience work (after submission): 
-- Feature extraction (to provide a context),
-- Study the comprehension graph relative of the post,
-- Extract the context,
-- Caraterize by rule the human bias judgment,
-- Evaluating by context similarity, the difference between each post.
-- Provide a dashboard of the post and its emotion.
+
+
+## How to use the project ?
+
+1. Feature extraction (to provide a context),
+2. Study the comprehension graph relative of the post,
+3. Extract the context,
+4. Caraterize by rule the human bias judgment,
+5. Evaluating by opinion similarity, the difference between each post.
+6. Provide a dashboard of the post and its emotion.
 
 ## How to setup the project ?
 
