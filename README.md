@@ -1,26 +1,37 @@
 # AJIR
+## Context
 
-## Context, issue and solution
+Today, machine learning helps people make better decisions through LLMs, probabilistic approaches, and more. However, these mathematical aids could lead to over-automation. The aim of this work is to help people understand biases and noise in judgment.
 
-Topic (v0): Analysis emotion of reddit posts
-Big topic: Analysis judgment of reddit posts
+## Dataset
 
-Guideline datascience work (after submission): 
+This study uses the Reddit dataset from the AITAH (Am I the Asshole) community, where users judge whether an action described by the writer is wrong or not. Each comment can classify the writer as NTA (Not the Asshole), ESH (Everyone Sucks Here), etc., and explain the reasons for their judgment.
 
+## Aim
 
-## How to use the project ?
+**Topic (v0):** Analyze the similarity of comments on Reddit posts
 
-1. Feature extraction (to provide a context),
-2. Study the comprehension graph relative of the post,
-3. Extract the context,
-4. Caraterize by rule the human bias judgment,
-5. Evaluating by opinion similarity, the difference between each post.
-6. Provide a dashboard of the post and its emotion.
+**Big topic:** Analyze judgments on Reddit posts
 
-## How to setup the project ?
+Possible guidelines for the data science work (after submission):
 
-Steps:
-1. If you use conda, intergate the environnement by: ` conda env create -f conda_env.yaml `
-2. Enjoy ! 
+    - Phase 1:
+        - Feature extraction (to provide context)
+        - Study the comprehension graph relative to the post and its comments, then extract the context
+    - Phase 2:
+        - Characterize human judgment biases through rules (each bias is a task)
+    - Phase 3:
+        - Provide a dashboard of the post and its associated emotions
 
-*To replicate the works, you may have cuda 12.2 on your laptop, otherwise you have to change the file environnement. 
+## How to set up the project?
+
+**Steps:**
+
+1. If you use conda, set up the environment with: conda env create -f conda_env.yaml
+2. Enjoy!
+
+*To replicate the work, you may need CUDA 12.2 on your laptop; otherwise, you will have to modify the environment file.
+
+## Source:
+
+    https://aclanthology.org/2020.ecnlp-1.11.pdf
